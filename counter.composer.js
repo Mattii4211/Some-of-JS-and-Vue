@@ -68,7 +68,7 @@ const CounterComponent = {
           this.count += 5;
         } else if(this.count < -9 && this.count > -100) {
           this.count -= 5;
-        } else if(this.count < -101) {
+        } else if(this.count < -100) {
           //this.count -= Math.random() * 10 + 2;
           this.count -= 10;
         } else {
